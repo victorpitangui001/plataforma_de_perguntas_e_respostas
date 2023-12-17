@@ -1,0 +1,19 @@
+{
+  "name": "plataforma_de_perguntas_e_respostas",
+  "version": "1.0.0",
+  "description": "Uma plataforma de perguntas e respostas ao estilo Yahoo respostas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorpitangui001/plataforma_de_perguntas_e_respostas.git"
+  },
+  "author": "Victor Pitangui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorpitangui001/plataforma_de_perguntas_e_respostas/issues"
+  },
+  "homepage": "https://github.com/victorpitangui001/plataforma_de_perguntas_e_respostas#readme"
+}
