@@ -2,11 +2,16 @@ const express = require('express');
 const app = express();
 
 app.set('view engine', 'ejs');
+app.use(express.static('public'));
 
 app.get("/", (req, res) => {
-    res.send("bem vindo")
+    res.render("index");
 });
 
+app.get("/perguntar", (req,res) => {
+    res.render("perguntar");
+})
+
 app.listen(3000, () => {
-    console.log("App rodando com sucesso!")
+    console.log("App rodando com sucesso!");
 });
